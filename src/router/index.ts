@@ -10,6 +10,8 @@ import TeacherProfile from '../views/TeacherProfile.vue'
 import Privacy from '../views/Privacy.vue'
 import Terms from '../views/Terms.vue'
 import TeacherDashboard from '../views/TeacherDashboard.vue'
+import CourseForm from '../views/CourseForm.vue'
+import StudentDashboard from '../views/StudentDashboard.vue'
 
 const routes = [
   {
@@ -66,6 +68,16 @@ const routes = [
     path: '/teacher-dashboard',
     name: 'TeacherDashboard',
     component: TeacherDashboard
+  },
+  {
+    path: '/course-form/:id',
+    name: 'CourseForm',
+    component: CourseForm
+  },
+  {
+    path: '/student-dashboard',
+    name: 'StudentDashboard',
+    component: StudentDashboard
   }
 ]
 

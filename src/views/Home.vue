@@ -10,7 +10,7 @@
           </p>
           <div class="hero-buttons fadeIn">
             <RouterLink to="/courses" class="btn btn-primary">تصفح الدورات</RouterLink>
-            <button class="btn btn-secondary">تعلم المزيد</button>
+            <RouterLink to="/student-dashboard" class="btn btn-secondary">لوحة الطالب</RouterLink>
           </div>
         </div>
       </div>
