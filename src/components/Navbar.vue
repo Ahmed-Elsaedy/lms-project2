@@ -12,6 +12,7 @@
         <div class="nav-links">
           <RouterLink to="/" class="nav-link">الرئيسية</RouterLink>
           <RouterLink to="/courses" class="nav-link">الدورات</RouterLink>
+          <RouterLink to="/teacher-dashboard" class="nav-link">لوحة المعلم</RouterLink>
           <RouterLink to="/about" class="nav-link">حول</RouterLink>
           <RouterLink to="/contact" class="nav-link">تواصل معنا</RouterLink>
         </div>
@@ -32,6 +33,7 @@
         <div class="mobile-links">
           <RouterLink to="/" class="mobile-link">الرئيسية</RouterLink>
           <RouterLink to="/courses" class="mobile-link">الدورات</RouterLink>
+          <RouterLink to="/teacher-dashboard" class="mobile-link">لوحة المعلم</RouterLink>
           <RouterLink to="/about" class="mobile-link">حول</RouterLink>
           <RouterLink to="/contact" class="mobile-link">تواصل معنا</RouterLink>
         </div>

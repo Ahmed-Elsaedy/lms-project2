@@ -9,6 +9,7 @@ import CourseDetails from '../views/CourseDetails.vue'
 import TeacherProfile from '../views/TeacherProfile.vue'
 import Privacy from '../views/Privacy.vue'
 import Terms from '../views/Terms.vue'
+import TeacherDashboard from '../views/TeacherDashboard.vue'
 
 const routes = [
   {
@@ -60,6 +61,11 @@ const routes = [
     path: '/terms',
     name: 'Terms',
     component: Terms
+  },
+  {
+    path: '/teacher-dashboard',
+    name: 'TeacherDashboard',
+    component: TeacherDashboard
   }
 ]
 
